@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<!--
+
+First Website
+and comment
+in html
+(comments can span multiple lines)
+
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+    <head>
+      <meta charset="utf-8">
+      <title>Joshua Click</title>
+      <link href="css/styles.css" rel="stylesheet" type="text/css" />  
+    </head>
+<!-- closing head -->
+
+    <!-- This is the body -->
+    <!-- This is where we place the content of our website -->
+    <body>
+        <header>
+          <h1>Joshua Click</h1>
+	  <h2>Home</h2>
+	</header>
+	<nav>
+	  <b>Home</b>
+	  <a href="about.html">About</a>
+	  <a href="contact.html">Contact</a>
+	</nav>
+        <main>
+	  <figure>
+	    <img src="img/j_click.jpg" alt "My Ugly Mug, circa 2/2/2020"/>
+	  </figure>
+	  <div>
+	    Hi!
+	    <p>Thank you for visiting my professional portfolio website.</p>
+	    
+	    <p>I am a Software Engineer and have been recently hired at the Acme Corporation.</p>
+	    
+	    <p>Feel free to contact me!</p>
+
+	    <br /><br />
+
+	    <em>"With ordinary talent and extraordinary <strong>perseverance</strong>, all things are attainable"</em><br />
+	    -Thomas F. Buxton
+	  </div>
+        <!-- This is the footer -->
+        <!-- The footer goes inside the body but not always -->
+        <footer>
+          <hr>
+          CST336-03_SP20:Internet Programming. 2020&copy; Click <br/>
+	  <strong>Disclaimer:</strong> All information on this page is fictitous.</br>
+	  It is used for academic purposes only.
+        </footer>
+        <!-- closing footer -->
+        
+    </body>
+    <!-- closing body -->
+
+</html>
